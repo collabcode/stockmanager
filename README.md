@@ -1,16 +1,23 @@
-# stockmanager
+# StockManager (Flutter)
 
-A new Flutter project.
+Phase 1 implementation of an offline-first stock management mobile app for Android and iOS.
 
-## Getting Started
+## Included in Phase 1 (Free Local Storage)
+- Category and item type management.
+- Item registration (name, SKU, barcode, cost, price).
+- Stock intake (single or bulk quantity with date/note).
+- POS checkout with atomic stock deduction.
+- Stock audit with count adjustments.
+- Daily/weekly/monthly P&L cards.
+- Local SQLite persistence only.
 
-This project is a starting point for a Flutter application.
+## Tech
+- Flutter + Material 3
+- SQLite (`sqflite`)
+- `intl` for date formatting
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Run
+```bash
+flutter pub get
+flutter run
+```
