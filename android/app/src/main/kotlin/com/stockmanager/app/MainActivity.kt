@@ -1,4 +1,4 @@
-package com.example.stockmanager
+package com.stockmanager.app
 
 import androidx.annotation.NonNull;
 import io.flutter.embedding.android.FlutterActivity
